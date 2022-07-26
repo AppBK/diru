@@ -30,3 +30,17 @@ legend {
 .love {
   display: block;
 }
+
+textarea {
+  height: 50px;
+  width: 184px;
+  margin-bottom: 12px;
+}
+
+.margin_bottom {
+  margin-bottom: 12px;
+}
+
+button {
+  margin: 12px;
+}
