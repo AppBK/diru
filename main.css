@@ -1,0 +1,47 @@
+body {
+  background-color: black;
+}
+
+.white_text {
+  color: white;
+}
+
+.innerBlock {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid white;
+}
+
+.innerBlock h1 {
+  margin: 0 auto;
+}
+
+.main_header {
+  font-size: 48px;
+  font-weight: normal;
+  color: white;
+  text-decoration: none;
+}
+
+.main_header span {
+  font-size: 36px;
+}
+
+.homeMenuList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0;
+  margin: 0 0 12px;
+}
+
+.homeMenuList li a {
+  text-decoration: none;
+  color: white;
+}
+
+.centered {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
