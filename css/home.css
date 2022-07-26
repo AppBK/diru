@@ -1,6 +1,9 @@
 .body_main {
   height: 100vw;
   width: 100vw;
-  background-image: url("../images/band/dir-en-grey-phalaris-2022-top.jpeg");
-  background-repeat: no-repeat;
+}
+
+.backdrop {
+  width: 100%;
+  height: 100%;
 }

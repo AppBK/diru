@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Circus-gwK5";
+  src: url("../fonts/Circus-gwK5.ttf");
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+}
+
+.fixup {
+  padding: 0;
+  border: 1px solid red;
+  width: 25%;
+  margin: 0 auto;
+}
+
+.fixup li {
+  margin: 1in;
+}
+
+.neg_left {
+  margin-left: -40px;
+  padding: 20px;
+}
+
+#links_header {
+  padding-top: 0.75in;
+  padding-bottom: 20px;
+  /*font-family: 'Saira', sans-serif;*/
+  color: #e81718;
+  font-family: "Circus-gwK5", sans-serif;
+  font-size: 4em;
+}
+
+.links_page {
+  font-size: 3em;
+  font-family: 'Saira', sans-serif;
+  transition-duration: 0.5s;
+}
+
+.links_page:hover {
+  color: #e81718;
+  font-family: "Circus-gwK5", sans-serif;
+  font-size: 4em;
+  transition-duration: 0.5s;
+}
+
+.links_page:after {
+  font-size: 3em;
+  color: white;
+  transition-duration: 0.5s;
+}
