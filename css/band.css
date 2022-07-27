@@ -1,0 +1,103 @@
+
+.band_div {
+  margin-top: 102px;
+  width: 80%;
+  height: 70%;
+  display: grid;
+  grid-template-columns: 7.69% 7.69% 7.69% 7.69% 7.69% 7.69% 7.69% 7.69% 7.69% 7.69% 7.69% 7.69% 7.69%;
+  grid-template-rows: 14.28% 14.28% 14.28% 14.28% 14.28% 14.28% 14.28%;
+}
+
+#band {
+  grid-column-start: 6;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  font-size: 3em;
+}
+
+#kyo_div {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+#kyo_img {
+  height: 100%;
+  width: 100%;
+}
+
+#kaoru_div {
+  grid-column-start: 6;
+  grid-column-end: 9;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+#kaoru_img {
+  height: 100%;
+  width: 100%;
+}
+
+#toshiya_div {
+  grid-column-start: 10;
+  grid-column-end: 13;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+#toshiya_img {
+  height: 100%;
+  width: 100%;
+}
+
+#divider {
+  grid-column-start: 1;
+  grid-column-end: 14;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  height: 100px;
+  width: 100vw;
+}
+
+#shinya_div {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 5;
+  grid-row-end: 7;
+}
+
+#shinya_img {
+  height: 100%;
+  width: 100%;
+}
+
+#die_div {
+  grid-column-start: 6;
+  grid-column-end: 9;
+  grid-row-start: 5;
+  grid-row-end: 7;
+}
+
+#die_img {
+  height: 100%;
+  width: 100%;
+}
+
+#live_div {
+  grid-column-start: 10;
+  grid-column-end: 13;
+  grid-row-start: 5;
+  grid-row-end: 7;
+}
+
+#live_img {
+  height: 100%;
+  width: 100%;
+}
+
+.float_names {
+  position: absolute;
+  font-size: larger;
+}

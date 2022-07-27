@@ -1,3 +1,7 @@
+form {
+  padding-top: 100px;
+}
+
 fieldset {
   display: flex;
   flex-direction: column;
